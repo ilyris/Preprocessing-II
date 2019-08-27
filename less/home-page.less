@@ -1,4 +1,4 @@
-@mobile: ~"(max-width: 500px)";
+
 
 .home {
   @media @mobile {
@@ -6,7 +6,7 @@
   }
   #mainHeader {
     padding-bottom: 20px;
-    border-bottom: 2px dashed #999;
+    border-bottom: 2px dashed @navigation-border;
 
     div {
       @media @mobile {
@@ -119,7 +119,7 @@
       }
 
       .btn {
-        .centered-button(center, center, #fff, teal, 15px, 20px, 18px, 600, 80%);
+        .centered-button(center, center, #fff, @button-bg, 15px, 20px, 18px, 600, 80%);
 
         @media @mobile {
           width: 100%;

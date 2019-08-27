@@ -168,7 +168,7 @@ img {
   margin: 0 auto;
 }
 .mainNavigation {
-  border-bottom: 2px dashed gray;
+  border-bottom: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -224,7 +224,7 @@ img {
 }
 .home #mainHeader {
   padding-bottom: 20px;
-  border-bottom: 2px dashed #999;
+  border-bottom: 2px dashed #C0C0C0;
 }
 @media (max-width: 500px) {
   .home #mainHeader div {
@@ -332,7 +332,7 @@ img {
   justify-content: center;
   align-content: center;
   color: #fff;
-  background-color: teal;
+  background-color: #17A2B8;
   padding: 15px;
   border-radius: 20px;
   font-size: 18px;
